@@ -6,13 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contenido.component.css'],
 })
 export class ContenidoComponent implements OnInit {
+  title: string = 'List of students';
   fecha: any = Date.now();
   alumnos: any[] = [
     {
       id: 1,
       name: 'Karina',
       lastname: 'Prado',
-      age: 21,
+      grade: 18,
       email: 'karina@gmail.com',
       curso: 'angular',
     },
@@ -20,7 +21,7 @@ export class ContenidoComponent implements OnInit {
       id: 2,
       name: 'Carla',
       lastname: 'Caceres',
-      age: 23,
+      grade: 19,
       email: 'carla2022@gmail.com',
       curso: 'angular',
     },
@@ -28,7 +29,7 @@ export class ContenidoComponent implements OnInit {
       id: 3,
       name: 'Samantha',
       lastname: 'Paredes',
-      age: 22,
+      grade: 11,
       email: 'sam.paredes@gmail.com',
       curso: 'angular',
     },
@@ -36,7 +37,7 @@ export class ContenidoComponent implements OnInit {
       id: 4,
       name: 'Estefania',
       lastname: 'Castro',
-      age: 20,
+      grade: 12,
       email: 'castro.estefania@gmail.com',
       curso: 'angular',
     },
